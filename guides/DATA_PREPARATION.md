@@ -4,6 +4,8 @@ PyBOM은 Excel의 BOM, 재고, 수요를 연결해 구매·생산 판단에 필�
 
 먼저 [예제 Excel](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)을 열어 각 시트와 열의 설명을 확인하세요. 예제는 사용법을 보여주는 가상 자료이며 실제 발주에 사용하면 안 됩니다.
 
+[영어 예제 Excel](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx)도 제공합니다. 안내문과 모든 열 메모를 영어로 읽을 수 있으며, 공급업체 이름은 실제 회사명 대신 `DEMO-SUPPLIER` 식별자를 사용합니다. 계산에 쓰이는 품번·수량·날짜는 한국어 예제와 같습니다.
+
 ## 처음 사용하는 순서
 
 1. Windows ZIP을 전부 압축 해제하고 `PyBOM.exe`를 엽니다.

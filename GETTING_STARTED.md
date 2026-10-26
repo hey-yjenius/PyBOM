@@ -20,13 +20,17 @@ The executable is not code-signed. Windows or your organization's security tools
 
 ## Try the example first
 
+Download the **[English example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx)** or **[Korean example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)**. The Windows ZIP includes the original Korean example; the English edition is a separate download.
+
 1. Choose **File > Open**, or press **Ctrl+O**.
-2. Open `PyBOM-Example.xlsx` from the extracted folder.
+2. Open the downloaded `PyBOM-Example-EN.xlsx`, or `PyBOM-Example.xlsx` from the extracted folder.
 3. Review the sheet and column mapping.
 4. Review the import summary and choose **Run all**.
 5. Start with the dashboard, then open the MRP and Coverage tabs.
 
 The example contains fictional demonstration data, not a production plan.
+
+In the English edition, start with **Read me** and hover over column headers for explanations and input rules. Use the as-of date **2026-10-15** to reproduce the example's schedule; a different date changes time-sensitive results.
 
 ## Prepare your own data
 

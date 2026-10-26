@@ -36,9 +36,9 @@ Bring your BOM, inventory and demand together. PyBOM helps you see what to buy, 
 3. **Open your workbook**, map its columns and choose **Run all**.
 4. **Review and export** the results to Excel, or save a Manager Brief.
 
-New to BOM analysis? Start with the included example workbook. It uses fictional data to demonstrate the input format.
+New to BOM analysis? Choose an English or Korean example workbook. Both use fictional data to demonstrate the input format. The English edition includes English instructions and notes on every input column, with neutral demonstration supplier labels.
 
-**[Download example workbook](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)** · **[Read the data preparation guide](guides/DATA_PREPARATION.md)**
+**[English example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx)** · **[한국어 예제](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)** · **[Data preparation guide](guides/DATA_PREPARATION.md)**
 
 ## See the plan, not just the data
 
@@ -64,7 +64,7 @@ New to BOM analysis? Start with the included example workbook. It uses fictional
 | Windows application | [Download portable ZIP](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip) |
 | First-run instructions | [Getting started](GETTING_STARTED.md) |
 | Input format and field explanations | [Data preparation guide](guides/DATA_PREPARATION.md) |
-| Example Excel workbook | [Download example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx) |
+| Example Excel workbooks | [English](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx) / [한국어](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx) |
 | Changes, checksums and source | [Latest release](https://github.com/hey-yjenius/PyBOM/releases/latest) |
 | Report a problem | [Support](SUPPORT.md) |
 

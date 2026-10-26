@@ -19,9 +19,11 @@ No Python installation is required. Keep the `_internal` folder beside the execu
 
 Other release files:
 
-- `PyBOM-Example.xlsx`: fictional example workbook.
+- [PyBOM-Example-EN.xlsx](https://github.com/hey-yjenius/PyBOM/releases/download/v1.0.0/PyBOM-Example-EN.xlsx): English instructions, item descriptions and all 54 column notes; neutral fictional supplier labels.
+- `PyBOM-Example.xlsx`: original Korean example workbook, also included in the Windows ZIP.
 - `PyBOM-Source-1.0.0.zip`: application source and build instructions, without private development history.
 - `SHA256SUMS.txt`: file hashes for verifying downloads.
+- `PyBOM-Example-EN.xlsx.sha256`: checksum for the separately added English example.
 
 GitHub's automatic **Source code (zip/tar.gz)** links contain this product-information repository, not the complete application source. Use `PyBOM-Source-1.0.0.zip` for the application source.
 
