@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#f4f6fa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0c1422" media="(prefers-color-scheme: dark)">
+  <title>PyBOM — Your BOM. A clearer plan.</title>
+  <meta name="description" content="Turn Excel BOMs, inventory and dated demand into material plans, cost rollups and supply insights. Download PyBOM for Windows. Your workbook is processed locally.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PyBOM — Your BOM. A clearer plan.">
+  <meta property="og:description" content="Material planning, cost analysis and supply visibility. Built around your Excel workbook, on your Windows PC.">
+  <meta property="og:url" content="https://hey-yjenius.github.io/PyBOM/">
+  <meta property="og:image" content="https://hey-yjenius.github.io/PyBOM/assets/cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://hey-yjenius.github.io/PyBOM/">
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="preload" href="assets/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="PyBOM home">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M9 8h11v24H9M20 20h11" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="3" y="3" width="10" height="10" rx="2"/><rect x="3" y="27" width="10" height="10" rx="2"/><rect x="27" y="15" width="10" height="10" rx="2"/></svg>
+      <span>PyBOM</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#workflow">How it works</a>
+      <a href="#download">Downloads</a>
+      <a href="https://github.com/hey-yjenius/PyBOM">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Your BOM.<br>A clearer plan.</h1>
+        <p class="lead">Connect the parts, stock and demand in your Excel workbook. See what needs attention before you buy or build.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download for Windows
+          </a>
+          <a class="text-link" href="#examples">Explore the example</a>
+        </div>
+        <p class="download-meta">Version 1.0.0 <span aria-hidden="true">/</span> Windows x64 <span aria-hidden="true">/</span> Portable ZIP</p>
+        <p class="quiet">No Python installation. No account. Local workbook processing.</p>
+      </div>
+      <div class="plan-diagram" role="img" aria-label="BOM, inventory and demand combine into a material plan with quantities, dates and actions.">
+        <div class="diagram-inputs" aria-hidden="true">
+          <div><span class="sheet-symbol">B</span><span>BOM</span><small>Parts &amp; quantities</small></div>
+          <div><span class="sheet-symbol">I</span><span>Inventory</span><small>Stock &amp; receipts</small></div>
+          <div><span class="sheet-symbol">D</span><span>Demand</span><small>Needs &amp; dates</small></div>
+        </div>
+        <svg class="diagram-join" viewBox="0 0 56 200" preserveAspectRatio="none" aria-hidden="true"><path d="M0 32h28v136H0M28 100h28" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        <div class="diagram-output" aria-hidden="true">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="m10 19 6 6L30 11M9 33h22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <strong>A material plan</strong>
+          <span>Quantities.<br>Dates.<br>Next actions.</span>
+        </div>
+      </div>
+    </section>
+
+    <figure class="product-preview wrap">
+      <a class="screen-link" href="assets/dashboard.webp" aria-label="Open the full-size PyBOM dashboard screenshot">
+        <img src="assets/dashboard.webp" width="1596" height="996" alt="Actual PyBOM dashboard showing planned actions and coverage warnings for synthetic parts and DEMO suppliers." fetchpriority="high">
+      </a>
+      <figcaption><span>Actual desktop app. Fictional example data.</span><a href="assets/dashboard.webp">View full size</a></figcaption>
+    </figure>
+
+    <section class="capabilities wrap" id="features" aria-labelledby="features-title">
+      <div class="section-intro">
+        <h2 id="features-title">The detail behind<br>the decision.</h2>
+        <p>A BOM is more useful when it connects to what is on hand, what is coming in and what is needed next.</p>
+      </div>
+      <dl class="capability-list">
+        <div><dt>Plan purchases and production</dt><dd>Review material requirements, planned order dates and suggested actions alongside dated receipts.</dd></div>
+        <div><dt>Understand stock and cost</dt><dd>Check shortages, days of supply, buildable quantities and multi-level costs. Missing prices stay visible.</dd></div>
+        <div><dt>Review before you act</dt><dd>Explore supply risk and what-if scenarios. Export your analysis or a Manager Brief for the next conversation.</dd></div>
+      </dl>
+    </section>
+
+    <section class="planning-section" aria-labelledby="planning-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <h2 id="planning-title">From a shortage<br>to a next step.</h2>
+          <p>Read the quantity, need date and proposed action together. Keep the assumptions in view.</p>
+        </div>
+        <figure class="detail-preview">
+          <a class="screen-link" href="assets/planning.webp" aria-label="Open the full-size material planning screenshot">
+            <img src="assets/planning.webp" width="1596" height="996" loading="lazy" alt="Actual MRP table with synthetic item codes, DEMO suppliers, order quantities, need dates and release dates.">
+          </a>
+          <figcaption><span>MRP view with the English example workbook.</span><a href="assets/planning.webp">View full size</a></figcaption>
+        </figure>
+        <div class="planning-notes">
+          <div><h3>Dates belong to each receipt.</h3><p>A later receipt does not silently cover an earlier need. Review overdue and missing-date disclosures alongside the plan.</p></div>
+          <div><h3>Advice stays separate from execution.</h3><p>PyBOM does not place orders or write back to your ERP. Your operational constraints and approval process still decide what happens.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow wrap" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-heading">
+        <h2 id="workflow-title">Start where your<br>data already is.</h2>
+        <p>Keep your Excel workflow. Add a structured way to review the plan.</p>
+      </div>
+      <ol class="steps">
+        <li><span class="step-number" aria-hidden="true">1</span><div><h3>Open your workbook</h3><p>Load the BOM, then add inventory, dated demand, item and cost information as available.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">2</span><div><h3>Check the mapping</h3><p>Match your sheets and columns. Read the import summary for missing inputs, exclusions and assumptions.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">3</span><div><h3>Analyze and share</h3><p>Choose Run all. Review the results, export to Excel and follow up on the items that need attention.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="examples wrap" id="examples" aria-labelledby="examples-title">
+      <div>
+        <h2 id="examples-title">Try it with<br>fictional data first.</h2>
+        <p>The English workbook explains every input column with a note. Its supplier names are neutral demo identifiers, not companies.</p>
+        <p class="quiet">Same quantities and dates as the Korean example. Use the as-of date 2026-10-15 to reproduce its schedule.</p>
+      </div>
+      <div class="example-downloads">
+        <a href="https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx"><span><strong>English example</strong><small>8 sheets with English instructions and 54 column notes</small></span><span class="file-type">XLSX</span></a>
+        <a href="https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx"><span><strong lang="ko">한국어 예제</strong><small>Korean instructions and column notes</small></span><span class="file-type">XLSX</span></a>
+        <a class="guide-link" href="https://github.com/hey-yjenius/PyBOM/blob/main/guides/DATA_PREPARATION.md">Read the Korean data preparation guide</a>
+      </div>
+    </section>
+
+    <section class="download-section" id="download" aria-labelledby="download-title">
+      <div class="wrap download-layout">
+        <div>
+          <h2 id="download-title">Ready for<br>your next plan.</h2>
+          <p>PyBOM 1.0.0 for Windows x64.</p>
+          <a class="button primary" href="https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download for Windows
+          </a>
+          <p class="quiet">Portable ZIP, approximately 79 MB. Checked on Windows 11.</p>
+          <div class="download-links"><a href="https://github.com/hey-yjenius/PyBOM/releases/latest">Release notes &amp; checksums</a><a href="https://github.com/hey-yjenius/PyBOM/blob/main/GETTING_STARTED.md">Getting started</a></div>
+        </div>
+        <div class="download-details">
+          <h3>Extract the whole folder.</h3>
+          <p>Open <code>PyBOM.exe</code> after extraction. Keep the <code>_internal</code> folder beside it. No Python installation is required.</p>
+          <p>The executable is not code-signed. Follow your organization’s software approval process if Windows displays a warning.</p>
+          <p>The ZIP includes the original Korean workbook. Download the English example separately above.</p>
+          <a href="https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Source-1.0.0.zip">Looking for the application source?</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions wrap" aria-labelledby="questions-title">
+      <h2 id="questions-title">A few things to know.</h2>
+      <div class="question-list">
+        <details><summary>Does my workbook leave my PC?</summary><p>The desktop app processes your workbook locally. No upload or cloud account is required for analysis. This download site is hosted on GitHub Pages; it does not accept your workbook or add analytics scripts.</p></details>
+        <details><summary>Do I need every input sheet?</summary><p>You can start with a BOM for structure analysis. Useful purchasing and production plans also need inventory, dated demand and lead times. Cost and supplier inputs support their respective analyses. Review missing-input disclosures before acting.</p></details>
+        <details><summary>Is PyBOM an ERP replacement?</summary><p>No. It is an advisory analysis tool. It does not create purchase orders, update stock or write back to your ERP. Review the recommendations against your operating constraints.</p></details>
+        <details><summary>Where can I get help?</summary><p>Read the <a href="https://github.com/hey-yjenius/PyBOM/blob/main/GETTING_STARTED.md">getting started guide</a> or <a href="https://github.com/hey-yjenius/PyBOM/blob/main/SUPPORT.md">report an issue</a>. Use anonymized examples. Never post production workbooks, supplier prices or other confidential information.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <div><a class="brand" href="./">PyBOM</a><p>Clarity for the next planning decision.</p></div>
+    <nav aria-label="Footer navigation">
+      <a href="https://github.com/hey-yjenius/PyBOM">GitHub</a>
+      <a href="https://github.com/hey-yjenius/PyBOM/blob/main/SUPPORT.md">Support</a>
+      <a href="https://github.com/hey-yjenius/PyBOM/blob/main/NOTICES.md">Licenses &amp; notices</a>
+    </nav>
+    <p class="footer-note">All product screens show fictional demonstration data. No customer or company records are displayed.</p>
+  </footer>
+</body>
+</html>

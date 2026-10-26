@@ -1,77 +1,48 @@
+[![PyBOM — Your BOM. A clearer plan.](docs/assets/cover.svg)](https://hey-yjenius.github.io/PyBOM/)
+
 <div align="center">
 
-# PyBOM
+**[Product website](https://hey-yjenius.github.io/PyBOM/)** · **[Download for Windows](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip)** · **[Getting started](GETTING_STARTED.md)**
 
-### From an Excel BOM to a clearer purchase plan.
-
-Material planning, cost analysis and supply risk — on your Windows PC.
-
-**[Download for Windows](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip)** · **[Getting started](GETTING_STARTED.md)** · **[Release notes](https://github.com/hey-yjenius/PyBOM/releases/latest)**
-
-Windows x64 · Portable ZIP · No Python installation · Local file processing
-
-<br>
-
-![PyBOM planning dashboard](images/dashboard.png)
+Windows x64 · Portable ZIP · Local workbook processing
 
 </div>
 
-## Know what needs attention
+## A plan behind the parts
 
-Bring your BOM, inventory and demand together. PyBOM helps you see what to buy, what to build and which shortages to address first.
+PyBOM connects your Excel BOM, inventory and dated demand to help you review what to buy, what to build and when to act.
 
-| Your question | What PyBOM shows |
+- **Material planning:** requirements, dated receipts and suggested order actions.
+- **Stock and cost:** shortages, days of supply, buildable quantities and multi-level cost rollups.
+- **Review and follow-up:** supply risk, scenarios, Excel exports and a Manager Brief.
+
+Missing inputs and assumptions stay visible. PyBOM provides advice; it does not place orders or write back to your ERP.
+
+[![Actual PyBOM dashboard with fictional English example data and neutral DEMO suppliers.](images/dashboard.png)](https://hey-yjenius.github.io/PyBOM/)
+
+*Actual desktop app using fictional demonstration data. No company or customer records.*
+
+## Start in three steps
+
+1. **[Download the Windows ZIP](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip)** and extract the entire folder.
+2. **Open `PyBOM.exe`.** Keep `_internal` beside it. No Python installation is required.
+3. **Open a workbook**, review the sheet and column mapping, then choose **Run all**.
+
+The executable is not code-signed. Follow your organization's software approval process if Windows displays a warning.
+
+## Try the examples
+
+| Workbook | What is inside |
 |---|---|
-| What should we order, and when? | Material requirements, dated receipts and suggested order actions |
-| Can we build it with current stock? | Buildable quantities and the parts that limit production |
-| Where will inventory run short? | Days of supply, shortage dates and excess inventory |
-| What does the assembly cost? | Multi-level cost rollups, with missing prices clearly identified |
-| Which items need closer attention? | Supply risk, lead-time exposure and supplier follow-up |
-| What if demand or supply changes? | Scenarios you can compare without changing the original input |
+| **[English example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx)** | 8 sheets, English instructions, all 54 column notes and neutral demo supplier names |
+| **[한국어 예제](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)** | Korean instructions and column notes |
 
-## Start with a workbook
+Both use fictional data with the same calculation inputs. The Windows ZIP includes the original Korean workbook; the English edition is a separate download.
 
-1. **Download and extract** the Windows ZIP. Keep the entire `PyBOM` folder together.
-2. **Open `PyBOM.exe`.** No Python setup or account is required.
-3. **Open your workbook**, map its columns and choose **Run all**.
-4. **Review and export** the results to Excel, or save a Manager Brief.
+## Guides and downloads
 
-New to BOM analysis? Choose an English or Korean example workbook. Both use fictional data to demonstrate the input format. The English edition includes English instructions and notes on every input column, with neutral demonstration supplier labels.
+[Getting started](GETTING_STARTED.md) · [Data preparation guide](guides/DATA_PREPARATION.md) · [Release notes and checksums](https://github.com/hey-yjenius/PyBOM/releases/latest) · [Support](SUPPORT.md)
 
-**[English example](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx)** · **[한국어 예제](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx)** · **[Data preparation guide](guides/DATA_PREPARATION.md)**
-
-## See the plan, not just the data
-
-![Material requirements and suggested order actions](images/material-planning.png)
-
-*Review quantities, dates and suggested actions together.*
-
-![Inventory coverage and shortage analysis](images/inventory-coverage.png)
-
-*See where committed supply falls short and where inventory is excessive.*
-
-## Designed for local work
-
-- **Your files stay on your PC.** Workbook processing does not require a cloud service.
-- **Assumptions stay visible.** Missing prices, unknown demand and input conflicts are disclosed.
-- **Your ERP stays in control.** PyBOM provides planning advice; it does not write changes back to your ERP.
-- **Results are shareable.** Export analysis sheets and a concise Manager Brief for follow-up.
-
-## Downloads and help
-
-| Looking for | Go to |
-|---|---|
-| Windows application | [Download portable ZIP](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Windows-x64.zip) |
-| First-run instructions | [Getting started](GETTING_STARTED.md) |
-| Input format and field explanations | [Data preparation guide](guides/DATA_PREPARATION.md) |
-| Example Excel workbooks | [English](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example-EN.xlsx) / [한국어](https://github.com/hey-yjenius/PyBOM/releases/latest/download/PyBOM-Example.xlsx) |
-| Changes, checksums and source | [Latest release](https://github.com/hey-yjenius/PyBOM/releases/latest) |
-| Report a problem | [Support](SUPPORT.md) |
-
-The Windows download is a portable application, not an installer. macOS and Linux application packages are not provided in this release.
-
----
-
-PyBOM is a planning aid. Review recommendations against your operational constraints before placing orders or changing production plans.
+Application source is available as **`PyBOM-Source-1.0.0.zip`** in Releases. GitHub's automatic source archives contain this product website, not the application.
 
 [License and third-party notices](NOTICES.md)
